@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    background-color: white;
+    background-image: url("../../img/thumb-1920-196081.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+#header {
+    background-color: #ff8d44;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#home-topimage {
+    width: 100%;
+    height: 1000px;
+    background-image: url("../../img/bg pc1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#home-title1 {
+    height: 250px;
+    width: 100%;
+    margin-top: -450px;
+    background-color: #ff8d44;
+    text-align: center;
+    -ms-transform: skewY(-4deg); /* IE 9 */
+    -webkit-transform: skewY(-4deg); /* Safari */
+    transform: skewY(-4deg); /* Standard syntax */
+    z-index: 1;
+}
+
+#home-image2 {
+    height: 800px;
+    width: 100%;
+    margin-top: -53px;
+    background-image: url("../../img/bts1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+#home-title2 {
+    height: 250px;
+    width: 100%;
+    background-color: #a3c635;
+    margin-top: -120px;
+    text-align: center;
+    -ms-transform: skewY(1deg);
+    -webkit-transform: skewY(1deg);
+    transform: skewY(1deg);
+}
+
+#home-image3 {
+    width: 100%;
+    margin-top: -10px;
+}
+
+#home-title3 {
+    height: 250px;
+    width: 100%;
+    margin-top: -100px;
+    background-color: #ff8d44;
+    text-align: center;
+    -ms-transform: skewY(1deg); /* IE 9 */
+    -webkit-transform: skewY(1deg); /* Safari */
+    transform: skewY(1deg); /* Standard syntax */
+    z-index: 1;
+}
+
+#home-image4 {
+    width: 100%;
+    margin-top: -20px;
+}
+
+#home-title4 {
+    height: 250px;
+    width: 100%;
+    background-color: #a3c635;
+    margin-top: -102px;
+    text-align: center;
+    -ms-transform: skewY(1deg);
+    -webkit-transform: skewY(1deg);
+    transform: skewY(1deg);
+}
+
+#home-image5 {
+    width: 100%;
+    margin-top: -20px;
+}
+
+#home-title5 {
+    height: 250px;
+    width: 100%;
+    margin-top: -70px;
+    background-color: #ff8d44;
+    text-align: center;
+    -ms-transform: skewY(1deg); /* IE 9 */
+    -webkit-transform: skewY(1deg); /* Safari */
+    transform: skewY(1deg); /* Standard syntax */
+    z-index: 1;
+}
+
+#home-image6 {
+    width: 100%;
+    margin-top: -30px;
+}
+
+#home-title7 {
+    height: 250px;
+    width: 100%;
+    background-color: #a3c635;
+    margin-top: -120px;
+    text-align: center;
+    -ms-transform: skewY(1deg);
+    -webkit-transform: skewY(1deg);
+    transform: skewY(1deg);
+}
+
+
+/*----------News*----------*/
+
+
+#news-container {
+    margin-top: 40px;
+    background-image: url("../../img/The-Beatles-News-Logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#article-container {
+    max-width: 20%;
+    display: inline-block;
+    float: left;
+}
+
+.images{
+    width: 300px;
+    height: 300px;
+}
+
+#footer {
+    background-color: lightgrey;
+    color: white;
+    width: 100%;
+    bottom:0;
+}
+
+
+/*----------text decorations*----------*/
+
+
+p, h1, h2, h3 ,h4, h5, a {  text-decoration: none;  color: black; }
+
+#header>a {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+
+/*----------media Queries*----------/
+
+
